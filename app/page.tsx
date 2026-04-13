@@ -192,6 +192,28 @@ export default function Home() {
             </div>
           </div>
 
+          {/* Project 4: ShopStore Ecommerce */}
+          <div className="group flex flex-col rounded-3xl bg-slate-900 border border-slate-800 hover:border-amber-500/50 transition-all overflow-hidden">
+            <div className="relative w-full aspect-video bg-slate-950 border-b border-slate-800 overflow-hidden">
+              <div className="absolute inset-0 bg-black/60 z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center pointer-events-none">
+                <span className="text-xs font-semibold tracking-wide text-white bg-amber-600/60 px-3 py-1.5 rounded-full">Hover to play demo</span>
+              </div>
+              <video autoPlay loop muted playsInline className="absolute inset-0 w-full h-full object-cover transition-opacity duration-300 z-0 opacity-100 group-hover:opacity-60">
+                <source src="/shopstore.mp4" type="video/mp4" />
+              </video>
+            </div>
+            <div className="p-6 flex-1 flex flex-col justify-between">
+              <div>
+                <h3 className="text-xl font-bold text-slate-200 mb-4">ShopStore Ecommerce</h3>
+                <p className="text-slate-400 text-sm mb-6 leading-relaxed">A full-featured ecommerce platform with product catalog, shopping cart, secure payment processing, and order management system.</p>
+              </div>
+              <div className="flex flex-wrap gap-2">
+                {['Next.js', 'React', 'Stripe'].map(t => (
+                  <span key={t} className="text-[11px] font-mono tracking-wider text-amber-400 bg-amber-400/10 px-2 py-1 rounded">{t}</span>
+                ))}
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
