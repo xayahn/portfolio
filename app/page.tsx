@@ -63,7 +63,7 @@ export default function Home() {
             <p className="text-sm text-slate-400">Technologies</p>
           </div>
           <div className="p-6 bg-slate-900/50 border border-slate-800 rounded-2xl">
-            <div className="text-3xl md:text-4xl font-bold text-emerald-400 mb-2">3rd Yr</div>
+            <div className="text-3xl md:text-4xl font-bold text-emerald-400 mb-2">4th Yr</div>
             <p className="text-sm text-slate-400">IT Student</p>
           </div>
         </div>
@@ -78,7 +78,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-12">
             <div>
               <p className="text-slate-400 text-lg mb-6">
-                As a 3rd-year Information Technology student at the University of the Assumption, I bring a holistic approach to software development. I don't just build visually appealing interfaces; I understand the infrastructure that powers them and the security protocols that protect them.
+                As a 4th-year Information Technology student at the University of the Assumption, I bring a holistic approach to software development. I don't just build visually appealing interfaces; I understand the infrastructure that powers them and the security protocols that protect them.
               </p>
               <p className="text-slate-400 text-lg">
                 My background spans from crafting responsive web apps with React and Next.js, to configuring cloud environments via AWS, and implementing complex cryptographic algorithms like ElGamal. I am highly adaptable and actively seeking roles in software development, virtual assistance, or data operations where I can deliver immediate value.
