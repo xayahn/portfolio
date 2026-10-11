@@ -5,7 +5,7 @@ import { SiReact, SiNextdotjs, SiJavascript, SiPython, SiPostgresql, SiBlender, 
 // Production-ready SEO Metadata
 export const metadata: Metadata = {
   title: 'Cyrus Josh Layug | Full Stack IT Developer & Cybersecurity Specialist',
-  description: 'Portfolio of Cyrus Josh Layug, a 3rd-year IT student specializing in React, Next.js, Python, AWS, and Cybersecurity. Available for remote and part-time opportunities.',
+  description: 'Portfolio of Cyrus Josh Layug, a 4th-year IT student specializing in React, Next.js, Python, AWS, and Cybersecurity. Available for remote and part-time opportunities.',
   keywords: ['Full Stack Developer', 'React', 'Next.js', 'Python', 'Cybersecurity', 'IT Professional'],
   authors: [{ name: 'Cyrus Josh Layug' }],
   openGraph: {
